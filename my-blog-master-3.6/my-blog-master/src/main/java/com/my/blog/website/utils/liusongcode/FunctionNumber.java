@@ -147,14 +147,14 @@ public class FunctionNumber {
 					}//不是注释
 				}//函数里的判断结束
 
-				if(line.toUpperCase().indexOf("CLASS")>=0 && line.toUpperCase().indexOf("PUBLIC")>=0 && line.toUpperCase().indexOf("(")<0 )
+				if((line.toUpperCase().indexOf("CLASS")>=0 || line.toUpperCase().indexOf("STRUCT")>=0) && line.toUpperCase().indexOf("(")<0 )
 				{
 					//类的判断标志暂定为class public 和 (
 					classNum++;//记录代码中类和结构体的个数
 					classLeft++;
 				}
 
-				if(line.indexOf('{')>=0 && line.indexOf('}')<0)
+				if(line.indexOf('{')>=0 && line.indexOf('}')<0 && line.indexOf("(")>=0)
 				//后半个条件是防止单行语句中数组赋值出现{1,2,...}误判为函数
 				{
 					left++;//通过花括号来判断函数个数
