@@ -4,14 +4,15 @@
 <div th:if="${article}!=null">
     <div th:id="${article.cid ?: 0}" class="comment-container">
         <div id="comments" class="clearfix">
-            <div th:if="${article.allowComment}">
-                <span class="response">
+         <!--   <div th:if="${article.allowComment}">
+              <span class="response">
                 <th:block th:if="${session.login_user}">
                     Hi，<a th:href="${session.login_user.homeUrl}" data-no-instant=""
                           th:text="${session.login_user.username}"></a>
                     是否需要 <a href="/logout" title="注销" data-no-instant="">注销</a> ?
                 </th:block>
             </span>
+
                 <form method="post" id="comment-form" class="comment-form" role="form"
                       onsubmit="return TaleComment.subComment();">
                     <input type="hidden" name="coid" id="coid"/>
@@ -33,6 +34,7 @@
                     <button type="submit" class="submit" id="misubmit">提交</button>
                 </form>
             </div>
+            -->
             <div th:unless="${article.allowComment}">
                 <span class="response">.</span>
             </div>
