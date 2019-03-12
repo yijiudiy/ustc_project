@@ -3,7 +3,6 @@ package com.my.blog.website.controller.admin;
 import com.github.pagehelper.PageInfo;
 import com.my.blog.website.constant.WebConst;
 import com.my.blog.website.controller.BaseController;
-import com.my.blog.website.dao.ContentVoMapper;
 import com.my.blog.website.dto.LogActions;
 import com.my.blog.website.dto.Types;
 import com.my.blog.website.model.Bo.RestResponseBo;
@@ -46,8 +45,7 @@ public class AttachController extends BaseController {
     @Resource
     private IAttachService attachService;
 
-    @Resource
-    private IContentService contentService;
+
     @Resource
     private ILogService logService;
 
@@ -93,31 +91,6 @@ public class AttachController extends BaseController {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                    //下面的内容用于读取文件到字符串
-                    FileReader reader = new FileReader(file);//定义一个fileReader对象，用来初始化BufferedReader
-                    BufferedReader bReader = new BufferedReader(reader);//new一个BufferedReader对象，将文件内容读取到缓存
-                    StringBuilder sb = new StringBuilder();//定义一个字符串缓存，将字符串存放缓存中
-                    String s = "";
-                    while ((s =bReader.readLine()) != null) {//逐行读取文件内容，不读取换行符和末尾的空格
-                        sb.append(s + "\n");//将读取的字符串添加换行符后累加存放在缓存中
-                        System.out.println(s);
-                    }
-                    bReader.close();
-                    String str = sb.toString();
-                    ContentVo content = new ContentVo();
-                    String title =fname.substring(fname.indexOf(".")+1, fname.length());
-                    content.setTitle(title);
-                    content.setType("post");
-                    content.setStatus("publish");
-                    content.setCategories("C++");
-                    content.setContent(str);
-                    content.setAllowFeed(true);
-                    content.setAllowComment(true);
-                    content.setAllowPing(true);
-                    content.setTags("");
-                    content.setAuthorId(users.getUid());
-                    contentService.publish(content);
-                    //
                     attachService.save(fname, fkey, ftype, uid);//保存上传的文件的基本信息，和路径信息,其中fkey包含了路径信息
                 } else {
                     errorFiles.add(fname);
