@@ -129,7 +129,7 @@ public class ArticleController extends BaseController {
         String title = contents.getTitle();//获取文章标题
         try (
                 //jdk7新特性，可以直接写到try()括号里面，java会自动关闭
-                InputStream inputStream = new ByteArrayInputStream(contents.getContent().getBytes());
+                InputStream inputStream = new ByteArrayInputStream(contents.getMeasure().getBytes());
                 //InputStream inputStream = new FileInputStream(new File(CLASSPATH + fkey));
                 OutputStream outputStream = response.getOutputStream()
         ) {
