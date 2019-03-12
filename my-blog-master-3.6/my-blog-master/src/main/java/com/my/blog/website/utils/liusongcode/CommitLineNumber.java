@@ -13,8 +13,9 @@ public class CommitLineNumber {
 	}
 
 	public  StringBuffer showResult(){
-		//res.delete(0,res.length());
-		int lineCount=0,blankLines=0,commentLines=0,codeLines=0;
+
+
+		int lineCount=0,blankLines=0,commentLines=0,codeLines=0,constNum=0,staticNum=0;
 		BufferedReader br = null;
 		boolean flag = false;
 		try {
@@ -33,7 +34,15 @@ public class CommitLineNumber {
 					flag = true;   //标价是否在注释块中
 					if(line.endsWith("*/"))flag=false;
 				}
-				else codeLines++;   //剩下的是代码行
+				else {
+					String lowLine=line.toLowerCase();
+					codeLines++;   //剩下的是代码行
+					if(lowLine.indexOf("const")>=0 )
+						constNum++;
+					if(lowLine.indexOf("static")>=0)
+						staticNum++;
+
+				}
 			}
 		} catch (FileNotFoundException e) {
 			System.out.println("有文件输入错误，请核对！"); //检查到文件不存在，提示错误
@@ -56,7 +65,6 @@ public class CommitLineNumber {
 		res.append("代码行数："+codeLines+"\r\n");
 
 
-
 		//显示空行数和代码行数，返回注释行数
 
 
@@ -68,6 +76,9 @@ public class CommitLineNumber {
 		nt.setMinimumFractionDigits(2);
 		//System.out.println("注释行数:"+comment+"  注释行数比例"+nt.format(commentPercent));
 		res.append("注释行数:"+commentLines+"  注释行数比例"+nt.format(commentPercent)+"\r\n");
+
+		res.append("const常量个数："+constNum+"\r\n");
+		res.append("static常量个数："+staticNum+"\r\n");
 		return res;
 	}
 }
