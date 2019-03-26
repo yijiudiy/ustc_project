@@ -23,6 +23,7 @@ public class FunctionNumber {
 	}
 
 	public  StringBuffer showResult(){
+		Map<String,Integer> cla = new LinkedHashMap<String,Integer>();
 		int left=0,functionFlag=0,classLeft=0,functionLineNum=0,maxDepth=0,numDepth=0,
 				functionStateNum=0,functionComplexSum=0,maxFunComplex=0;
 		boolean commentFlag = false,singleLine=false;
@@ -152,6 +153,33 @@ public class FunctionNumber {
 					//类的判断标志暂定为class public 和 (
 					classNum++;//记录代码中类和结构体的个数
 					classLeft++;
+					//先把找到的类存到map中
+					int a=lowLine.indexOf("class")+6;
+					int endIndex=0;
+					if(lowLine.indexOf('{')>0)
+						endIndex=lowLine.indexOf('{');
+					else if(lowLine.indexOf(':')>0)
+						endIndex=lowLine.indexOf(':');
+					else endIndex=lowLine.length()-1;
+
+					String str = lowLine.substring(a,endIndex);
+					System.out.println("lei   "+str);
+					cla.put(str,1);
+					//现在找的类一定是第一次出现的  后面处理继承出现的
+
+
+					if(lowLine.indexOf(':')>0)
+					{
+						//出现继承
+						int startIndex=lowLine.lastIndexOf(' ');
+//						System.out.println(lowLine);
+//						System.out.println(lowLine.substring(0,lowLine.length()));
+						String s=lowLine.substring(startIndex+1,lowLine.length());
+//						System.out.println("jicheng**"+s+"**");
+						Integer times = cla.get(s)+1;
+						cla.put(str,times);
+					}
+
 				}
 
 				if(line.indexOf('{')>=0 && line.indexOf('}')<0)
@@ -191,7 +219,11 @@ public class FunctionNumber {
 			}
 		}
 		res.append("类和结构体个数："+classNum+"\r\n"+"\r\n");
-		res.append("函数个数："+functionResult+"\r\n");
+		for(String s:cla.keySet())
+		{
+			res.append("类名："+s+"     最大继承深度："+cla.get(s)+"\r\n");
+		}
+		res.append("\r\n"+"函数个数："+functionResult+"\r\n");
 //	        System.out.println("类和结构体个数："+classNum);
 //	        System.out.println("函数个数："+functionResult);
 
@@ -260,7 +292,7 @@ public class FunctionNumber {
 			res.append("函数平均语句数："+functionStateNum/functionResult+"\r\n"+"\r\n");
 			//System.out.println("函数平均语句数："+functionStateNum/functionResult);
 		}
-
+		System.out.println(cla.toString());
 		return res;
 	}//showresult
 }
