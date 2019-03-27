@@ -1,844 +1,448 @@
-2019-03-05 15:23:35.139 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
-2019-03-05 15:23:35.288 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may exist in file [C:\Users\13752\Downloads\my-blog-master-3.5\my-blog-master\target\classes\mapper\ContentVoMapper.xml]
-### The error may involve com.my.blog.website.dao.ContentVoMapper.selectByExampleWithBLOBs-Inline
-### The error occurred while setting parameters
-### SQL: select                 cid, title, slug, created, modified, author_id, type, status, tags, categories, hits,      comments_num, allow_comment, allow_ping, allow_feed         ,           content,measure         from t_contents                    WHERE (  type = ?                                                                and status = ? )                        order by created desc LIMIT 12
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:23:49.512 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 15:23:49.512 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 15:23:49.517 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 15:23:49.517 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 15:23:49.527 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 15:23:49.527 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 15:23:49.537 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 15:23:49.538 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 15:23:49.543 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 15:23:49.544 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 15:24:05.607 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:07.115 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:08.945 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:10.322 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:13.912 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:23.168 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:24.789 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:25.993 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may exist in file [C:\Users\13752\Downloads\my-blog-master-3.5\my-blog-master\target\classes\mapper\ContentVoMapper.xml]
-### The error may involve com.my.blog.website.dao.ContentVoMapper.selectByExampleWithBLOBs-Inline
-### The error occurred while setting parameters
-### SQL: select                 cid, title, slug, created, modified, author_id, type, status, tags, categories, hits,      comments_num, allow_comment, allow_ping, allow_feed         ,           content,measure         from t_contents                    WHERE (  type = ? )                        order by created desc LIMIT 15
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:34.002 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:34.879 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:35.037 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:35.208 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:35.393 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:35.545 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:35.717 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:24:35.935 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:26:04.987 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 15:26:04.987 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 15:26:05.005 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 15:26:05.005 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 15:26:05.018 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 15:26:05.018 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 15:26:05.027 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 15:26:05.027 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 15:26:05.032 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 15:26:05.032 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 15:26:18.414 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:26:19.177 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:26:19.424 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:26:19.749 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:26:19.924 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:26:20.103 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:26:20.262 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:27:26.951 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:27:27.092 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:27:27.263 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:27:27.452 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:27:27.768 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 15:27:27.983 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
-### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,?)
-### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'measure' in 'field list'
-2019-03-05 22:27:25.812 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 22:27:25.813 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 22:27:25.839 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 22:27:25.839 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 22:27:25.850 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 22:27:25.850 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 22:27:25.860 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 22:27:25.860 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 22:27:25.864 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 22:27:25.864 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 22:27:42.312 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=8,mid=7
-2019-03-05 22:27:42.317 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 22:29:47.187 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=9,mid=1
-2019-03-05 22:29:47.190 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 22:32:35.518 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:32:36.925 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:32:39.216 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:32:44.730 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:32:45.126 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:32:45.274 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:32:45.416 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:32:50.205 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:33:02.615 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:33:17.588 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:33:26.829 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:33:35.621 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 22:33:35.621 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 22:33:35.624 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 22:33:35.624 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 22:33:35.626 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 22:33:35.627 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 22:33:35.632 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 22:33:35.632 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 22:33:35.636 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 22:33:35.636 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 22:33:44.139 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:33:44.773 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:33:44.915 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:33:45.055 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:34:02.522 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 22:34:02.522 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 22:34:02.542 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 22:34:02.542 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 22:34:02.552 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 22:34:02.552 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 22:34:02.564 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 22:34:02.564 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 22:34:02.567 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 22:34:02.567 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 22:34:09.279 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:34:10.016 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:34:10.157 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:34:10.300 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:34:10.451 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:34:14.144 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:34:14.282 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:34:14.434 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:35:47.376 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 22:35:47.376 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 22:35:47.401 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 22:35:47.401 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 22:35:47.412 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 22:35:47.412 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 22:35:47.424 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 22:35:47.424 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 22:35:47.429 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 22:35:47.429 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 22:35:56.445 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=10,mid=7
-2019-03-05 22:35:56.449 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 22:36:15.832 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:36:17.929 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:36:18.076 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:36:18.218 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:36:18.381 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:37:15.331 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 22:37:15.331 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 22:37:15.333 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 22:37:15.333 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 22:37:15.337 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 22:37:15.337 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 22:37:15.341 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 22:37:15.341 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 22:37:15.343 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 22:37:15.343 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 22:37:27.080 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:37:28.000 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:37:28.153 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:37:28.312 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:37:28.453 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:38:47.934 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 22:38:47.935 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 22:38:47.953 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 22:38:47.953 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 22:38:47.962 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 22:38:47.962 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 22:38:47.971 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 22:38:47.972 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 22:38:47.975 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 22:38:47.975 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 22:38:56.764 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:40:32.663 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 22:40:32.663 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 22:40:32.680 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 22:40:32.680 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 22:40:32.695 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 22:40:32.695 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 22:40:32.703 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 22:40:32.704 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 22:40:32.711 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 22:40:32.711 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 22:40:42.944 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:40:44.572 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:40:44.745 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:40:44.880 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:40:45.017 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:07.268 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:07.427 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:07.545 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:07.675 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:07.833 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:07.987 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:08.139 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:08.289 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:08.466 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:08.954 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:09.127 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:09.265 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:09.598 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:54.748 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:55.442 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:55.628 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:55.820 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:41:55.978 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:42:06.407 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:42:06.986 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:42:07.118 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:42:07.260 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:42:11.984 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:42:12.259 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:42:12.409 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:42:12.555 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:01.404 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 22:45:01.404 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 22:45:01.424 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 22:45:01.424 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 22:45:01.434 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 22:45:01.434 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 22:45:01.444 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 22:45:01.445 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 22:45:01.448 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 22:45:01.448 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 22:45:23.326 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:23.895 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:24.040 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:24.197 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:24.358 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:25.070 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:25.231 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:25.380 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:25.517 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:25.677 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:25.829 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:25.980 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:26.997 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:27.142 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:27.280 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:27.730 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:27.884 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:28.279 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:28.424 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:28.574 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:28.724 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:28.890 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:29.061 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:29.215 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:45:29.382 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:48:01.436 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:48:02.313 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:48:02.445 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:48:02.565 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:49:48.639 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:49:48.835 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:49:48.987 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:49:49.120 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:08.722 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 22:51:08.722 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 22:51:08.743 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 22:51:08.743 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 22:51:08.754 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 22:51:08.754 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 22:51:08.765 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 22:51:08.765 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 22:51:08.769 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 22:51:08.769 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 22:51:25.225 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:35.761 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:36.148 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:36.302 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:36.463 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:36.902 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:37.069 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:37.222 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:37.381 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:37.547 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:37.779 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:37.943 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:38.097 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:38.274 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:38.966 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:39.152 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:39.315 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:39.474 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:40.410 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:40.567 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:40.721 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:40.878 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:41.022 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:48.117 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:48.263 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:51:48.397 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:27.858 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:28.322 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:28.478 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:28.621 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:28.782 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:51.019 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:51.167 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:51.304 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:51.445 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:51.596 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:53:51.846 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:55:47.768 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:55:48.150 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 22:55:48.301 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 23:12:03.585 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 13
-2019-03-05 23:15:56.681 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 23:15:56.682 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 23:15:56.712 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 23:15:56.712 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 23:15:56.725 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 23:15:56.726 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 23:15:56.739 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 23:15:56.739 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 23:15:56.745 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 23:15:56.746 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 23:16:41.671 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=11,mid=1
-2019-03-05 23:16:41.721 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:17:31.411 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=12,mid=1
-2019-03-05 23:17:31.417 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:17:55.943 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=13,mid=1
-2019-03-05 23:17:55.946 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:19:53.264 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=14,mid=7
-2019-03-05 23:19:53.314 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:22:54.273 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=15,mid=1
-2019-03-05 23:22:54.297 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:28:03.999 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 23:28:03.999 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 23:28:04.031 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 23:28:04.031 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 23:28:04.051 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 23:28:04.051 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 23:28:04.076 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 23:28:04.076 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 23:28:04.087 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 23:28:04.087 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 23:28:17.440 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=16,mid=7
-2019-03-05 23:28:17.447 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:30:15.780 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=17,mid=7
-2019-03-05 23:30:15.783 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:37:39.221 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=18,mid=7
-2019-03-05 23:37:39.224 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:38:07.899 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 23:38:07.899 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 23:38:07.929 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 23:38:07.929 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 23:38:07.943 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 23:38:07.944 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 23:38:07.958 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 23:38:07.958 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 23:38:07.963 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 23:38:07.963 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 23:39:57.901 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=19,mid=7
-2019-03-05 23:39:57.907 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:41:14.771 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=20,mid=7
-2019-03-05 23:41:14.796 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:44:35.182 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=21,mid=7
-2019-03-05 23:44:35.184 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:45:52.842 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 23:45:52.842 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 23:45:52.873 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 23:45:52.873 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 23:45:52.887 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 23:45:52.887 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 23:45:52.897 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 23:45:52.898 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 23:45:52.903 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 23:45:52.903 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 23:46:42.233 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=22,mid=7
-2019-03-05 23:46:42.276 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:50:02.585 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 23:50:02.586 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 23:50:02.614 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 23:50:02.614 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 23:50:02.626 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 23:50:02.626 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 23:50:02.636 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 23:50:02.636 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 23:50:02.641 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 23:50:02.641 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 23:50:15.495 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=23,mid=7
-2019-03-05 23:50:15.500 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-05 23:51:51.392 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-05 23:51:51.392 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-05 23:51:51.422 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-05 23:51:51.422 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-05 23:51:51.435 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-05 23:51:51.435 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-05 23:51:51.446 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-05 23:51:51.446 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-05 23:51:51.451 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-05 23:51:51.451 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-05 23:53:35.098 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=24,mid=7
-2019-03-05 23:53:35.140 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:04:10.600 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=25,mid=7
-2019-03-06 00:04:10.604 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:04:30.779 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 00:04:30.779 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 00:04:30.805 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 00:04:30.805 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 00:04:30.818 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 00:04:30.818 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 00:04:30.828 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 00:04:30.828 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 00:04:30.834 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 00:04:30.834 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 00:06:05.630 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=26,mid=7
-2019-03-06 00:06:05.635 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:06:32.723 [http-nio-8080-exec-10] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 00:06:32.723 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 00:06:32.731 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 00:06:32.731 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 00:06:32.744 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 00:06:32.744 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 00:06:32.752 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 00:06:32.752 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 00:06:32.759 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 00:06:32.759 [http-nio-8080-exec-10] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 00:07:01.633 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=27,mid=7
-2019-03-06 00:07:01.641 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:11:39.831 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=28,mid=7
-2019-03-06 00:11:39.854 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:21:26.509 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 00:21:26.509 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 00:21:26.535 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 00:21:26.535 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 00:21:26.550 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 00:21:26.550 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 00:21:26.561 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 00:21:26.562 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 00:21:26.568 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 00:21:26.568 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 00:26:00.570 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=30,mid=7
-2019-03-06 00:26:00.610 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:28:07.517 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=31,mid=7
-2019-03-06 00:28:07.521 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:30:24.732 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=32,mid=7
-2019-03-06 00:30:24.735 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:35:17.796 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=33,mid=7
-2019-03-06 00:35:17.830 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:38:07.823 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=34,mid=7
-2019-03-06 00:38:07.848 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:39:30.282 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=35,mid=7
-2019-03-06 00:39:30.305 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:48:10.519 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=36,mid=7
-2019-03-06 00:48:10.547 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:48:54.641 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 00:48:54.641 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 00:48:54.668 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 00:48:54.668 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 00:48:54.682 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 00:48:54.682 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 00:48:54.691 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 00:48:54.691 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 00:48:54.697 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 00:48:54.697 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 00:49:05.589 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=37,mid=7
-2019-03-06 00:49:05.595 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:49:34.006 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=38,mid=7
-2019-03-06 00:49:34.009 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:50:27.781 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 00:50:27.781 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 00:50:27.808 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 00:50:27.808 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 00:50:27.822 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 00:50:27.822 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 00:50:27.834 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 00:50:27.834 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 00:50:27.839 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 00:50:27.839 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 00:50:40.508 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=39,mid=7
-2019-03-06 00:50:40.514 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:51:11.394 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=40,mid=7
-2019-03-06 00:51:11.399 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:51:37.086 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=41,mid=7
-2019-03-06 00:51:37.088 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:54:08.244 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 00:54:08.244 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 00:54:08.270 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 00:54:08.270 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 00:54:08.281 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 00:54:08.281 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 00:54:08.291 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 00:54:08.292 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 00:54:08.296 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 00:54:08.296 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 00:54:18.302 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=42,mid=7
-2019-03-06 00:54:18.310 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:54:41.863 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=43,mid=7
-2019-03-06 00:54:41.866 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:55:19.635 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=44,mid=7
-2019-03-06 00:55:19.636 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 00:56:29.756 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=45,mid=7
-2019-03-06 00:56:29.758 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 13:54:13.656 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
-2019-03-06 13:54:13.788 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
-2019-03-06 13:54:29.303 [http-nio-8080-exec-10] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 13:54:29.304 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 13:54:29.315 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 13:54:29.315 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 13:54:29.336 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 13:54:29.336 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 13:54:29.358 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 13:54:29.358 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 13:54:29.371 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 13:54:29.372 [http-nio-8080-exec-10] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 13:54:40.805 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=46,mid=7
-2019-03-06 13:54:40.812 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 13:55:35.539 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:55:38.239 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:55:38.673 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:55:38.828 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:55:45.162 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:55:54.803 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:55:55.401 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:55:55.546 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:55:55.701 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:55:55.856 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:56:09.966 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:56:10.325 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:56:10.474 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:56:10.607 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:56:48.180 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 13:56:48.180 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 13:56:48.209 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 13:56:48.209 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 13:56:48.224 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 13:56:48.225 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 13:56:48.238 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 13:56:48.238 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 13:56:48.244 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 13:56:48.244 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 13:56:57.397 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:56:59.525 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:57:01.217 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:57:01.377 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:57:01.512 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:57:01.673 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:57:01.980 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:57:02.129 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:57:02.282 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:57:02.460 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:58:23.741 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:58:24.588 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:58:24.723 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:58:24.843 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:58:24.987 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:59:14.533 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:59:16.097 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:59:16.471 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 13:59:16.594 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:00:19.266 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 14:00:19.267 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 14:00:19.298 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 14:00:19.299 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 14:00:19.314 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 14:00:19.314 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 14:00:19.327 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 14:00:19.327 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 14:00:19.333 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 14:00:19.334 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 14:02:22.823 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:02:50.410 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:04:00.118 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:04:49.658 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:05:19.921 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:07:48.535 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:08:02.397 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:09:40.913 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:10:44.985 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:13:20.052 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 14:13:20.052 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 14:13:20.080 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 14:13:20.081 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 14:13:20.095 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 14:13:20.095 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 14:13:20.108 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 14:13:20.108 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 14:13:20.114 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 14:13:20.114 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 14:13:28.940 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=47,mid=7
-2019-03-06 14:13:28.946 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 14:14:50.416 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:14:52.922 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:15:23.849 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=48,mid=7
-2019-03-06 14:15:23.855 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 14:17:17.499 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:17:18.714 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:17:26.336 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:17:35.284 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:17:57.505 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:17:57.648 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:17:57.779 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:17:57.923 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:18:08.246 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=49,mid=7
-2019-03-06 14:18:08.249 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 14:18:25.034 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:18:25.520 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:18:35.304 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:18:43.228 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=50,mid=7
-2019-03-06 14:18:43.232 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 14:19:10.410 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:19:11.488 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:19:11.639 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:19:11.784 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:20:01.158 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:20:01.903 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:21:07.464 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 14:21:07.464 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 14:21:07.494 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 14:21:07.494 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 14:21:07.509 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 14:21:07.509 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 14:21:07.522 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 14:21:07.522 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 14:21:07.529 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 14:21:07.530 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 14:22:37.464 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:25:49.284 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:26:04.481 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:26:11.983 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:26:15.948 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:26:18.941 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:41:11.616 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:41:28.446 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:47:50.685 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:47:51.675 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:47:54.027 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:47:54.867 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:47:55.324 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:47:55.787 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:58:25.940 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
-2019-03-06 14:59:22.023 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 14:59:22.023 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 14:59:22.069 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 14:59:22.069 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 14:59:22.094 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 14:59:22.094 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 14:59:22.115 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 14:59:22.115 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 14:59:22.122 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 14:59:22.122 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 14:59:45.086 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=51,mid=7
-2019-03-06 14:59:45.094 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 15:09:05.328 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 15:09:05.328 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 15:09:05.355 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 15:09:05.355 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 15:09:05.369 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 15:09:05.369 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 15:09:05.381 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 15:09:05.381 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 15:09:05.386 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 15:09:05.386 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 15:09:41.101 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=52,mid=7
-2019-03-06 15:09:41.106 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 15:11:52.276 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=53,mid=7
-2019-03-06 15:11:52.279 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-06 15:14:46.462 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-06 15:14:46.463 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-06 15:14:46.522 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-06 15:14:46.522 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-06 15:14:46.574 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-06 15:14:46.574 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-06 15:14:46.613 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-06 15:14:46.613 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-06 15:14:46.620 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-06 15:14:46.620 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-06 15:14:55.795 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=54,mid=7
-2019-03-06 15:14:55.802 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
-2019-03-07 19:49:22.300 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
-2019-03-07 19:49:22.301 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
-2019-03-07 19:49:22.322 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
-2019-03-07 19:49:22.322 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
-2019-03-07 19:49:22.332 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
-2019-03-07 19:49:22.332 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
-2019-03-07 19:49:22.342 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
-2019-03-07 19:49:22.342 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
-2019-03-07 19:49:22.346 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
-2019-03-07 19:49:22.346 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
-2019-03-07 19:49:36.032 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=56,mid=7
-2019-03-07 19:49:36.035 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:35:25.349 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 21:35:25.349 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 21:35:25.371 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 21:35:25.371 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 21:35:25.383 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 21:35:25.383 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 21:35:25.392 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 21:35:25.392 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 21:35:25.396 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 21:35:25.396 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 21:35:31.508 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=58,mid=1
+2019-03-12 21:35:31.511 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:38:39.742 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=59,mid=1
+2019-03-12 21:38:39.746 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:39:11.635 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=60,mid=1
+2019-03-12 21:39:11.638 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:39:47.497 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=61,mid=7
+2019-03-12 21:39:47.498 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:41:39.557 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=62,mid=1
+2019-03-12 21:41:39.561 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:43:50.714 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=63,mid=1
+2019-03-12 21:43:50.716 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:44:23.513 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=64,mid=7
+2019-03-12 21:44:23.514 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:47:11.227 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=65,mid=1
+2019-03-12 21:47:11.230 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:47:31.747 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=66,mid=7
+2019-03-12 21:47:31.748 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 21:48:51.563 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 21:48:51.564 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 21:48:51.566 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 21:48:51.566 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 21:48:51.569 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 21:48:51.569 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 21:48:51.575 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 21:48:51.575 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 21:48:51.576 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 21:48:51.576 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-15 11:07:47.983 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-15 11:07:47.984 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-15 11:07:48.039 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-15 11:07:48.039 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-15 11:07:48.076 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-15 11:07:48.076 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-15 11:07:48.110 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-15 11:07:48.110 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-15 11:07:48.122 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-15 11:07:48.122 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-15 11:08:59.590 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=67,mid=1
+2019-03-15 11:08:59.590 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=68,mid=1
+2019-03-15 11:08:59.612 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:08:59.612 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:08:59.703 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=69,mid=1
+2019-03-15 11:08:59.704 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=70,mid=1
+2019-03-15 11:08:59.709 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:08:59.709 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:10:44.045 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=71,mid=1
+2019-03-15 11:10:44.047 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=72,mid=1
+2019-03-15 11:10:44.048 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:10:44.049 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:10:44.103 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=73,mid=1
+2019-03-15 11:10:44.103 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=74,mid=1
+2019-03-15 11:10:44.106 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:10:44.106 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:11:09.063 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=75,mid=1
+2019-03-15 11:11:09.067 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:12:09.459 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=76,mid=1
+2019-03-15 11:12:09.465 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:12:09.536 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=77,mid=1
+2019-03-15 11:12:09.543 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:14:46.457 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=78,mid=1
+2019-03-15 11:14:46.461 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=79,mid=1
+2019-03-15 11:14:46.463 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-15 11:14:46.467 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-17 15:07:30.872 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-17 15:07:30.873 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-17 15:07:30.894 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-17 15:07:30.894 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-17 15:07:30.907 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-17 15:07:30.907 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-17 15:07:30.921 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-17 15:07:30.921 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-17 15:07:30.927 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-17 15:07:30.927 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-17 15:08:00.663 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=80,mid=1
+2019-03-17 15:08:00.664 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=81,mid=1
+2019-03-17 15:08:00.669 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-17 15:08:00.669 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-17 15:08:00.704 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=82,mid=1
+2019-03-17 15:08:00.706 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-17 15:17:16.516 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-17 15:17:16.516 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-17 15:17:16.536 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-17 15:17:16.536 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-17 15:17:16.547 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-17 15:17:16.548 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-17 15:17:16.557 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-17 15:17:16.557 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-17 15:17:16.561 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-17 15:17:16.561 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-17 15:17:32.200 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=83,mid=1
+2019-03-17 15:17:32.205 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-23 18:09:15.373 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-23 18:09:15.373 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-23 18:09:15.398 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-23 18:09:15.399 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-23 18:09:15.409 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-23 18:09:15.409 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-23 18:09:15.422 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-23 18:09:15.422 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-23 18:09:15.426 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-23 18:09:15.426 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-23 18:10:35.534 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=84,mid=1
+2019-03-23 18:10:35.537 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-23 18:20:26.126 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-03-23 18:20:26.131 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-03-23 18:20:32.527 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-23 18:20:32.527 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-23 18:20:32.530 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-23 18:20:32.530 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-23 18:20:32.533 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-23 18:20:32.533 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-23 18:20:32.536 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-23 18:20:32.536 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-23 18:20:32.538 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-23 18:20:32.538 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-23 18:20:45.637 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=85,mid=1
+2019-03-23 18:20:45.640 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 15:26:05.413 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 15:26:05.414 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 15:26:05.440 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 15:26:05.440 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 15:26:05.452 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 15:26:05.452 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 15:26:05.462 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 15:26:05.462 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 15:26:05.466 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 15:26:05.466 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 15:26:54.090 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=86,mid=1
+2019-03-25 15:26:54.096 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 16:00:38.182 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 16:00:38.182 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 16:00:38.228 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 16:00:38.229 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 16:00:38.275 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 16:00:38.275 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 16:00:38.302 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 16:00:38.303 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 16:00:38.318 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 16:00:38.318 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 16:06:40.705 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 16:06:40.705 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 16:06:40.726 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 16:06:40.726 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 16:06:40.738 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 16:06:40.738 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 16:06:40.747 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 16:06:40.747 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 16:06:40.752 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 16:06:40.752 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 16:06:45.162 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=87,mid=1
+2019-03-25 16:06:45.166 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 16:10:01.453 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 16:10:01.453 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 16:10:01.471 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 16:10:01.471 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 16:10:01.483 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 16:10:01.483 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 16:10:01.491 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 16:10:01.491 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 16:10:01.496 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 16:10:01.496 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 16:10:05.782 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=88,mid=1
+2019-03-25 16:10:05.785 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 16:11:23.665 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 16:11:23.665 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 16:11:23.720 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 16:11:23.720 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 16:11:23.735 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 16:11:23.735 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 16:11:23.749 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 16:11:23.749 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 16:11:23.756 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 16:11:23.756 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 16:55:46.440 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 16:55:46.440 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 16:55:46.459 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 16:55:46.459 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 16:55:46.469 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 16:55:46.469 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 16:55:46.477 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 16:55:46.477 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 16:55:46.482 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 16:55:46.482 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 17:02:49.566 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=89,mid=1
+2019-03-25 17:02:49.569 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 20:39:06.023 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 20:39:06.024 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 20:39:06.082 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 20:39:06.082 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 20:39:06.100 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 20:39:06.100 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 20:39:06.115 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 20:39:06.115 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 20:39:06.121 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 20:39:06.121 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 20:39:17.550 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=90,mid=1
+2019-03-25 20:39:17.556 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 21:00:11.090 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:00:11.090 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:00:11.158 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:00:11.158 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:00:11.173 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:00:11.173 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:00:11.187 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:00:11.187 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:00:11.194 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:00:11.194 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:04:41.975 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:04:41.975 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:04:42.028 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:04:42.028 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:04:42.043 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:04:42.043 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:04:42.056 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:04:42.056 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:04:42.063 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:04:42.063 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:12:27.207 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:12:27.208 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:12:27.261 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:12:27.261 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:12:27.277 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:12:27.278 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:12:27.295 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:12:27.295 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:12:27.302 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:12:27.302 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:12:30.120 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:12:30.121 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:12:30.126 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:12:30.126 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:12:30.136 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:12:30.136 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:12:30.143 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:12:30.143 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:12:30.149 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:12:30.149 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:12:35.087 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:12:35.087 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:12:35.090 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:12:35.090 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:12:35.099 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:12:35.099 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:12:35.107 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:12:35.107 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:12:35.113 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:12:35.113 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:12:43.535 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:12:43.535 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:12:43.539 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:12:43.539 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:12:43.549 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:12:43.549 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:12:43.557 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:12:43.557 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:12:43.562 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:12:43.562 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:12:49.197 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:12:49.197 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:12:49.201 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:12:49.201 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:12:49.210 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:12:49.210 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:12:49.216 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:12:49.216 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:12:49.222 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:12:49.222 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:15:52.607 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:15:52.608 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:15:52.664 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:15:52.664 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:15:52.679 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:15:52.679 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:15:52.692 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:15:52.692 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:15:52.700 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:15:52.700 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:17:05.228 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:17:05.229 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:17:05.283 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:17:05.283 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:17:05.297 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:17:05.297 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:17:05.310 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:17:05.310 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:17:05.317 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:17:05.317 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:24:41.295 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:24:41.295 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:24:41.301 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:24:41.301 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:24:41.306 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:24:41.306 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:24:41.314 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:24:41.314 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:24:41.317 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:24:41.317 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:32:50.047 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:32:50.047 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:32:50.113 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:32:50.113 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:32:50.127 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:32:50.127 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:32:50.140 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:32:50.140 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:32:50.147 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:32:50.147 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:39:53.030 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:39:53.030 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:39:53.084 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:39:53.084 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:39:53.099 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:39:53.099 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:39:53.112 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:39:53.113 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:39:53.120 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:39:53.120 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:39:56.831 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=91,mid=1
+2019-03-25 21:39:56.837 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 21:55:20.772 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:55:20.772 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:55:20.841 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:55:20.841 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:55:20.857 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:55:20.857 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:55:20.871 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:55:20.871 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:55:20.877 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:55:20.877 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:55:26.071 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=92,mid=1
+2019-03-25 21:55:26.075 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 21:56:11.209 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 21:56:11.209 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 21:56:11.262 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 21:56:11.262 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 21:56:11.275 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 21:56:11.275 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 21:56:11.289 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 21:56:11.289 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 21:56:11.295 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 21:56:11.296 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 21:56:15.526 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=93,mid=1
+2019-03-25 21:56:15.530 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 21:56:35.069 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=94,mid=1
+2019-03-25 21:56:35.072 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 21:57:27.416 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=95,mid=1
+2019-03-25 21:57:27.418 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 22:30:07.537 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 22:30:07.538 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 22:30:07.543 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 22:30:07.543 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 22:30:07.550 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 22:30:07.550 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 22:30:07.556 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 22:30:07.556 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 22:30:07.559 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 22:30:07.559 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 22:38:25.629 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 22:38:25.629 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 22:38:25.683 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 22:38:25.683 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 22:38:25.696 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 22:38:25.696 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 22:38:25.711 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 22:38:25.711 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 22:38:25.720 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 22:38:25.721 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 22:38:30.859 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=96,mid=1
+2019-03-25 22:38:30.863 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 22:46:02.884 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 22:46:02.884 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 22:46:02.954 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 22:46:02.954 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 22:46:02.971 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 22:46:02.971 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 22:46:02.985 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 22:46:02.985 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 22:46:02.991 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 22:46:02.991 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 22:46:07.986 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=97,mid=1
+2019-03-25 22:46:07.991 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 22:46:42.604 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=98,mid=1
+2019-03-25 22:46:42.607 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 22:46:52.870 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=99,mid=1
+2019-03-25 22:46:52.872 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 22:47:34.643 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-25 22:47:34.643 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-25 22:47:34.699 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-25 22:47:34.699 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-25 22:47:34.714 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-25 22:47:34.714 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-25 22:47:34.726 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-25 22:47:34.726 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-25 22:47:34.734 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-25 22:47:34.734 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-25 22:47:38.144 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=100,mid=1
+2019-03-25 22:47:38.151 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 22:47:48.480 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=101,mid=1
+2019-03-25 22:47:48.483 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-25 22:47:57.983 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=102,mid=1
+2019-03-25 22:47:57.986 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-27 14:43:55.639 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-27 14:43:55.639 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-27 14:43:55.746 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-27 14:43:55.746 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-27 14:43:55.774 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-27 14:43:55.774 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-27 14:43:55.794 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-27 14:43:55.795 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-27 14:43:55.806 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-27 14:43:55.807 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-27 14:44:11.207 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=103,mid=1
+2019-03-27 14:44:11.217 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-27 14:46:31.621 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-27 14:46:31.621 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-27 14:46:31.676 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-27 14:46:31.677 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-27 14:46:31.691 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-27 14:46:31.691 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-27 14:46:31.709 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-27 14:46:31.710 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-27 14:46:31.718 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-27 14:46:31.718 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-27 14:47:06.369 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=104,mid=1
+2019-03-27 14:47:06.374 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-27 14:54:49.479 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-27 14:54:49.480 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-27 14:54:49.547 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-27 14:54:49.547 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-27 14:54:49.574 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-27 14:54:49.574 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-27 14:54:49.594 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-27 14:54:49.594 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-27 14:54:49.601 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-27 14:54:49.601 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-27 14:54:59.224 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=105,mid=1
+2019-03-27 14:54:59.228 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0

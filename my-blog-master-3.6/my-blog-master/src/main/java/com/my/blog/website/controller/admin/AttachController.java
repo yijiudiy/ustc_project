@@ -27,7 +27,10 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -105,8 +108,19 @@ public class AttachController extends BaseController {
                     bReader.close();
                     String str = sb.toString();
                     ContentVo content = new ContentVo();
-                    String title =fname.substring(fname.indexOf(".")+1, fname.length());
-                    content.setTitle(title);
+//                    String title =fname.substring(fname.indexOf(".")+1, fname.length());
+                    String title =fname.substring(0, fname.indexOf("."));
+                    Date date = new Date();
+                    DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                    String dateString = format.format(date);
+
+
+//                    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//                    Date date = sdf.parse(time);
+
+
+
+                    content.setTitle(title + "_" + dateString );
                     content.setType("post");
                     content.setStatus("publish");
                     content.setCategories("C++");

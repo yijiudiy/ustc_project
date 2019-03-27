@@ -14,7 +14,6 @@ import java.util.Set;
 public class WebConst {
     public static Map<String, String> initConfig = new HashMap<>();
 
-
     public static String LOGIN_SESSION_KEY = "login_user";
 
     public static final String USER_IN_COOKIE = "S_L_ID";
