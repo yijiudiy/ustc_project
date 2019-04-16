@@ -104,6 +104,86 @@ public class ContentServiceImpl implements IContentService {
         metasService.saveMetas(cid, categories, Types.CATEGORY.getType());
         return WebConst.SUCCESS_RESULT;
     }
+    @Override
+    @Transactional
+    public String upload(ContentVo[] c) {
+        c[c.length-1] = c[c.length-2];
+        String str = " ";
+        String[] codes = new String[c.length-1];
+        String[] result = new String[c.length];
+        for(int i=0;i<c.length-1;i++)
+        {
+            codes[i] = c[i].getContent();
+            str += codes[i];
+            str += "\n";
+        }
+        c[c.length-1].setContent(str);
+        c[c.length-1].setTitle("统计结果");
+        CodeMeasure codeprocess = new CodeMeasure();
+       // result = codeprocess.lsmea(codes);
+        for(int i=0;i<c.length;i++)
+        {
+            c[i].setMeasure(result[i]);
+        }
+        for(int i=0;i<c.length-1;i++) {
+            ContentVo contents = c[i];
+            if (null == contents) {
+                return "文章对象为空";
+            }
+            if (StringUtils.isBlank(contents.getTitle())) {
+                return "文章标题不能为空";
+            }
+            if (StringUtils.isBlank(contents.getContent())) {
+                return "文章内容不能为空";
+            }
+            int titleLength = contents.getTitle().length();
+            if (titleLength > WebConst.MAX_TITLE_COUNT) {
+                return "文章标题过长";
+            }
+            int contentLength = contents.getContent().length();
+            if (contentLength > WebConst.MAX_TEXT_COUNT) {
+                return "文章内容过长";
+            }
+            if (null == contents.getAuthorId()) {
+                return "请登录后发布文章";
+            }
+            if (StringUtils.isNotBlank(contents.getSlug())) {
+                if (contents.getSlug().length() < 5) {
+                    return "路径太短了";
+                }
+                if (!TaleUtils.isPath(contents.getSlug())) return "您输入的路径不合法";
+                ContentVoExample contentVoExample = new ContentVoExample();
+                contentVoExample.createCriteria().andTypeEqualTo(contents.getType()).andStatusEqualTo(contents.getSlug());
+                long count = contentDao.countByExample(contentVoExample);
+                if (count > 0) return "该路径已经存在，请重新输入";
+            } else {
+                contents.setSlug(null);
+            }
+
+            contents.setContent(EmojiParser.parseToAliases(contents.getContent()));
+
+            int time = DateKit.getCurrentUnixTime();
+            contents.setCreated(time);
+            contents.setModified(time);
+            contents.setHits(0);
+            contents.setCommentsNum(0);
+
+            String tags = contents.getTags();
+            String categories = contents.getCategories();
+//***********************************************************************
+            //下面的代码调用了代码度量部分的代码，实现了统计属性值的需求
+/*            String code = contents.getContent();
+            CodeMeasure codeprocess = new CodeMeasure();
+            code = codeprocess.lsmea(code);
+            contents.setMeasure(code);*/
+//***********************************************************************
+            contentDao.insert(contents);
+            Integer cid = contents.getCid();
+            metasService.saveMetas(cid, tags, Types.TAG.getType());
+            metasService.saveMetas(cid, categories, Types.CATEGORY.getType());
+        }
+        return WebConst.SUCCESS_RESULT;
+    }
 
     @Override
     public PageInfo<ContentVo> getContents(Integer p, Integer limit) {

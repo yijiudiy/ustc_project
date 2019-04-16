@@ -22,6 +22,13 @@ public interface IContentService {
     String publish(ContentVo contents);
 
     /**
+     * 上传代码
+     * @param contents
+     */
+    String upload(ContentVo[] contents);
+
+    /**
+     *
      *查询文章返回多条数据
      * @param p 当前页
      * @param limit 每页条数

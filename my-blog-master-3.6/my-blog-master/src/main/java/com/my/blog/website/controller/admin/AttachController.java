@@ -84,6 +84,8 @@ public class AttachController extends BaseController {
         UserVo users = this.user(request);
         Integer uid = users.getUid();
         List<String> errorFiles = new ArrayList<>();
+        ContentVo[] contents = new ContentVo[multipartFiles.length+1];
+        int k=0;
         try {
             for (MultipartFile multipartFile : multipartFiles) {
                 String fname = multipartFile.getOriginalFilename();
@@ -130,7 +132,8 @@ public class AttachController extends BaseController {
                     content.setAllowPing(true);
                     content.setTags("");
                     content.setAuthorId(users.getUid());
-                    contentService.publish(content);
+                    contents[k++] = content;
+                   // contentService.publish(content);
                     //
                     attachService.save(fname, fkey, ftype, uid);//保存上传的文件的基本信息，和路径信息,其中fkey包含了路径信息
                 } else {

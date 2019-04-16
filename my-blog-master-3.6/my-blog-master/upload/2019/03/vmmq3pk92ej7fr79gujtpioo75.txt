@@ -1,0 +1,94 @@
+#include<iostream>
+#include<vector> 
+using namespace std;
+
+void lcs(vector<int> &x, vector<int> &y, vector<vector<int>> &c, vector<vector<int>> &b){
+	int m = x.size()-1;
+	int n = y.size()-1;	
+
+	int k = 0;
+	for(int i=0; i<=m; i++){
+		for(int j=0; j<=n; j++){ 
+			c[i].push_back(0);
+		}	
+	}
+	
+	for(int i=0; i<=m; i++)
+	{
+		for(int j= 0; j<=n; j++)
+			b[i].push_back(0);
+	}
+	// 接下来对x数组的每一个元素都和y中的所有前缀比较，填满c[1..m,1..n] 
+	for(int i=1; i<=m ; i++){
+		for(int j=1; j<=n; j++){
+			if(x[i] == y[j])
+			{
+				c[i][j] = c[i-1][j-1] + 1;
+				b[i][j] = 2;
+			}
+			else if(c[i-1][j] >= c[i][j-1])
+			{
+				c[i][j] = c[i-1][j];
+				b[i][j] = 1;		//等于上面的，1 ,但是b数组现在没有 
+			}
+			else 
+			{
+				c[i][j] = c[i][j-1];
+				b[i][j] = 3;			//等于左边的，3, 
+			}
+		}
+	}
+}
+
+void print_lcs(vector<vector<int>> &b,vector<int> &x, int i, int j){
+	if(i == 0 || j == 0)
+		return ;
+	if(b[i][j] == 2)
+	{
+		print_lcs(b,x,i-1,j-1);
+		cout << x[i] << '\t';
+	}
+	else if(b[i][j] == 1){
+		print_lcs(b,x,i-1,j);
+	}
+	else {
+		print_lcs(b,x,i,j-1);
+	}
+}
+
+int main()
+{
+	vector<int>  x;
+	vector<int>  y;
+	int t;
+	cin >> t;
+	x.push_back(t);
+	while(cin.get()!='\n')
+	{
+		int t ;
+		cin>>t;
+		x.push_back(t);
+	}
+	x.insert(x.begin(),0);  //在x[0]位置插入0，使实际输入的数组从x[1]处开始存放 
+	
+	cin >> t;
+	y.push_back(t);
+	while(cin.get()!='\n')
+	{
+		int t ;
+		cin>>t;
+		y.push_back(t);
+	}
+	y.insert(y.begin(),0); //同理 
+	int m = x.size();
+	int n = y.size();
+	vector<vector<int>> c(m);
+	vector<vector<int>> b(m);
+	lcs(x,y,c,b); 	//得到一个表存放任意x前缀和任意y前缀的lcs 值，也就是c，并且在b中保存了哪些元素被作为了lcs的元素，也就是说标记为2的是公共元素，
+					//标记为1的是以x（i-1）和yj的lcs（取上面的值）一部分，标记为3的是 xi和yj-1的lcs值，（取的左边的值） 
+	cout <<"LCS长度： " << c[m-1][n-1] << endl; 
+	cout<< "LCS序列： "; 
+	print_lcs(b,x,m-1,n-1);
+//	printlcs(b); //通过b数组和一个全局的x数组就可以打印出lcs中的所有元素 
+		
+}

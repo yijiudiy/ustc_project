@@ -1,0 +1,1033 @@
+2019-02-26 20:49:33.609 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-02-26 20:49:33.681 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-02-26 20:50:06.221 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-26 20:50:06.222 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-26 20:50:06.229 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-26 20:50:06.229 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-26 20:50:06.234 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-26 20:50:06.234 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-26 20:50:06.245 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-26 20:50:06.245 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-26 20:50:06.251 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-26 20:50:06.251 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-26 20:55:59.061 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-26 20:55:59.061 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-26 20:55:59.077 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-26 20:55:59.077 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-26 20:55:59.089 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-26 20:55:59.089 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-26 20:55:59.098 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-26 20:55:59.098 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-26 20:55:59.103 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-26 20:55:59.103 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-26 20:57:10.595 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-26 20:57:10.596 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-26 20:57:10.598 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-26 20:57:10.598 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-26 20:57:10.601 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-26 20:57:10.601 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-26 20:57:10.607 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-26 20:57:10.607 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-26 20:57:10.609 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-26 20:57:10.609 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-27 10:04:59.264 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-02-27 10:04:59.370 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-02-27 10:05:12.726 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-27 10:05:12.726 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-27 10:05:12.737 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-27 10:05:12.737 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-27 10:05:12.753 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-27 10:05:12.754 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-27 10:05:12.781 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-27 10:05:12.781 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-27 10:05:12.798 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-27 10:05:12.798 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-27 17:12:53.951 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-02-27 17:12:54.035 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-02-27 17:13:12.680 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-27 17:13:12.680 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-27 17:13:12.682 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-27 17:13:12.682 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-27 17:13:12.688 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-27 17:13:12.688 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-27 17:13:12.701 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-27 17:13:12.701 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-27 17:13:12.705 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-27 17:13:12.705 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-27 17:14:53.850 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=3,mid=7
+2019-02-27 17:14:53.854 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-27 17:14:53.857 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=3,mid=1
+2019-02-27 17:14:53.859 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-27 17:15:38.282 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-02-27 17:15:38.286 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-02-27 17:16:03.466 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getArchives method
+2019-02-27 17:16:03.477 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getArchives method
+2019-02-27 17:16:05.494 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getArchives method
+2019-02-27 17:16:05.499 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getArchives method
+2019-02-27 17:16:17.363 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-27 17:16:17.363 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-27 17:16:17.366 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-27 17:16:17.366 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-27 17:16:17.370 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-27 17:16:17.370 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-27 17:16:17.376 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-27 17:16:17.377 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-27 17:16:17.378 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-27 17:16:17.378 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-27 17:17:03.032 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=4,mid=8
+2019-02-27 17:17:03.033 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-27 17:19:12.881 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-27 17:19:12.881 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-27 17:19:12.883 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-27 17:19:12.883 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-27 17:19:12.885 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-27 17:19:12.885 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-27 17:19:12.889 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-27 17:19:12.889 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-27 17:19:12.891 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-27 17:19:12.891 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-28 20:04:43.931 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-02-28 20:04:44.030 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-02-28 20:05:10.595 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-02-28 20:05:10.604 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-02-28 20:05:48.542 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-28 20:05:48.543 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-28 20:05:48.546 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-28 20:05:48.546 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-28 20:05:48.552 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-28 20:05:48.552 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-28 20:05:48.564 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-28 20:05:48.564 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-28 20:05:48.569 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-28 20:05:48.569 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-28 20:06:39.421 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=4,mid=8
+2019-02-28 20:06:39.427 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 20:37:24.793 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-28 20:37:24.793 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-28 20:37:24.810 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-28 20:37:24.810 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-28 20:37:24.821 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-28 20:37:24.821 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-28 20:37:24.831 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-28 20:37:24.831 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-28 20:37:24.835 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-28 20:37:24.835 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-28 20:37:37.750 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=5,mid=8
+2019-02-28 20:37:37.754 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 20:39:00.672 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-28 20:39:00.672 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-28 20:39:00.691 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-28 20:39:00.691 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-28 20:39:00.705 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-28 20:39:00.705 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-28 20:39:00.719 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-28 20:39:00.719 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-28 20:39:00.724 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-28 20:39:00.725 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-28 20:39:07.538 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=6,mid=8
+2019-02-28 20:39:07.542 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 21:05:09.574 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-28 21:05:09.574 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-28 21:05:09.577 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-28 21:05:09.577 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-28 21:05:09.584 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-28 21:05:09.584 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-28 21:05:09.589 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-28 21:05:09.589 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-28 21:05:09.591 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-28 21:05:09.591 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-28 21:55:00.669 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-28 21:55:00.669 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-28 21:55:00.690 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-28 21:55:00.690 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-28 21:55:00.703 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-28 21:55:00.703 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-28 21:55:00.716 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-28 21:55:00.716 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-28 21:55:00.720 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-28 21:55:00.720 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-28 21:55:11.076 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=7,mid=8
+2019-02-28 21:55:11.080 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 22:37:20.420 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-28 22:37:20.420 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-28 22:37:20.440 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-28 22:37:20.440 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-28 22:37:20.451 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-28 22:37:20.451 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-28 22:37:20.463 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-28 22:37:20.463 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-28 22:37:20.466 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-28 22:37:20.466 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-28 22:37:38.541 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=8,mid=8
+2019-02-28 22:37:38.544 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 22:49:14.655 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-28 22:49:14.656 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-28 22:49:14.674 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-28 22:49:14.674 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-28 22:49:14.686 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-28 22:49:14.686 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-28 22:49:14.694 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-28 22:49:14.694 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-28 22:49:14.698 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-28 22:49:14.698 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-28 22:49:27.294 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=9,mid=8
+2019-02-28 22:49:27.297 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 23:02:18.416 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-02-28 23:02:18.416 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-02-28 23:02:18.434 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-02-28 23:02:18.434 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-02-28 23:02:18.444 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-02-28 23:02:18.444 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-02-28 23:02:18.454 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-02-28 23:02:18.454 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-02-28 23:02:18.458 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-02-28 23:02:18.458 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-02-28 23:02:33.212 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=10,mid=8
+2019-02-28 23:02:33.214 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 23:07:39.434 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=11,mid=8
+2019-02-28 23:07:39.436 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 23:07:56.753 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=12,mid=8
+2019-02-28 23:07:56.754 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 23:22:35.547 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=13,mid=8
+2019-02-28 23:22:35.550 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-02-28 23:22:56.449 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=14,mid=8
+2019-02-28 23:22:56.452 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-03 09:49:36.820 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-03-03 09:49:36.903 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-03-03 09:50:10.323 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-03 09:50:10.324 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-03 09:50:10.326 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-03 09:50:10.326 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-03 09:50:10.335 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-03 09:50:10.335 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-03 09:50:10.351 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-03 09:50:10.351 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-03 09:50:10.358 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-03 09:50:10.358 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-03 09:50:28.815 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=15,mid=8
+2019-03-03 09:50:28.821 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-03 10:20:45.280 [http-nio-8080-exec-10] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-03 10:20:45.280 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-03 10:20:45.282 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-03 10:20:45.282 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-03 10:20:45.285 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-03 10:20:45.285 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-03 10:20:45.291 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-03 10:20:45.291 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-03 10:20:45.294 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-03 10:20:45.294 [http-nio-8080-exec-10] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-03 16:46:57.238 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-03-03 16:47:12.302 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-03-03 16:47:57.511 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-03 16:47:57.511 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-03 16:47:58.004 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-03 16:47:58.004 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-03 16:47:58.135 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-03 16:47:58.135 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-03 16:47:59.532 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-03 16:47:59.532 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-03 16:47:59.735 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-03 16:47:59.736 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-03 16:48:28.124 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-03-03 16:48:28.240 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-03-03 16:48:29.235 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=3,mid=7
+2019-03-03 16:48:30.066 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-03 16:54:17.608 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-03 16:54:17.622 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-03 16:54:17.754 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-03 16:54:17.754 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-03 16:54:17.789 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-03 16:54:17.789 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-03 16:54:17.811 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-03 16:54:17.811 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-03 16:54:17.825 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-03 16:54:17.825 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-03 16:54:35.357 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=4,mid=7
+2019-03-03 16:54:35.364 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-03 17:01:08.240 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-03 17:01:08.279 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-03 17:01:08.345 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-03 17:01:08.345 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-03 17:01:08.370 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-03 17:01:08.370 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-03 17:01:08.394 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-03 17:01:08.395 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-03 17:01:08.406 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-03 17:01:08.406 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-03 17:01:27.978 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=5,mid=7
+2019-03-03 17:01:27.983 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-03 17:01:30.798 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-03 17:01:30.798 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-03 17:01:30.801 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-03 17:01:30.801 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-03 17:01:30.808 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-03 17:01:30.808 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-03 17:01:30.821 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-03 17:01:30.821 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-03 17:01:30.827 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-03 17:01:30.827 [http-nio-8080-exec-2] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-03 17:04:37.372 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=6,mid=7
+2019-03-03 17:04:37.377 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-03 17:06:24.203 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=7,mid=7
+2019-03-03 17:06:24.206 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-03 17:15:10.618 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-03 17:15:10.660 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-03 17:15:10.787 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-03 17:15:10.787 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-03 17:15:10.816 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-03 17:15:10.816 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-03 17:15:10.840 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-03 17:15:10.840 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-03 17:15:10.851 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-03 17:15:10.851 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-03 17:15:40.333 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=8,mid=7
+2019-03-03 17:15:40.404 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-03 17:19:06.992 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=9,mid=7
+2019-03-03 17:19:06.995 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-03 17:25:21.503 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-03 17:25:21.534 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-03 17:25:21.590 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-03 17:25:21.590 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-03 17:25:21.613 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-03 17:25:21.613 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-03 17:25:21.630 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-03 17:25:21.630 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-03 17:25:21.653 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-03 17:25:21.653 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-03 17:25:38.912 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=10,mid=7
+2019-03-03 17:25:38.920 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-05 09:43:22.809 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-05 09:43:22.809 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-05 09:43:22.849 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-05 09:43:22.849 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-05 09:43:22.897 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-05 09:43:22.897 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-05 09:43:22.933 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-05 09:43:22.933 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-05 09:43:22.941 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-05 09:43:22.941 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-05 10:16:53.168 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-05 10:16:53.168 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-05 10:16:53.203 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-05 10:16:53.203 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-05 10:16:53.221 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-05 10:16:53.221 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-05 10:16:53.237 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-05 10:16:53.237 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-05 10:16:53.244 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-05 10:16:53.244 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-05 10:32:57.681 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-05 10:32:57.681 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-05 10:32:57.713 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-05 10:32:57.713 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-05 10:32:57.724 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-05 10:32:57.724 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-05 10:32:57.735 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-05 10:32:57.736 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-05 10:32:57.740 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-05 10:32:57.741 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-05 10:33:23.930 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:33:30.143 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:33:44.632 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:33:45.427 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:33:45.621 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:33:45.782 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:33:45.941 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:33:46.115 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:33:46.284 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:33:46.459 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:10.560 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:11.644 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:11.811 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:11.981 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:12.139 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:12.304 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:12.459 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:12.632 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:12.803 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:12.964 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:13.114 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:13.275 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:13.434 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:34:13.593 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:16.638 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:25.027 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:26.186 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:26.650 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:26.884 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:27.068 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:27.418 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:36.827 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:40.003 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:40.180 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:40.346 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:40.503 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:40.666 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:40.834 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:40.996 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:35:41.146 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:36:33.657 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-05 10:36:33.657 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-05 10:36:33.689 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-05 10:36:33.689 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-05 10:36:33.704 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-05 10:36:33.704 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-05 10:36:33.719 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-05 10:36:33.719 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-05 10:36:33.724 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-05 10:36:33.724 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-05 10:36:56.168 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:36:57.437 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:36:57.694 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:36:57.883 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:36:58.052 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:36:58.222 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:37:04.710 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:42:05.347 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:44:57.060 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+### The error may involve com.my.blog.website.dao.ContentVoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_contents (cid, title, slug,        created, modified, author_id,        type, status, tags,        categories, hits, comments_num,        allow_comment, allow_ping, allow_feed,        content,measure)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?,{measure,jdbcType=LONGVARCHAR})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'jdbcType=LONGVARCHAR})' at line 12
+2019-03-05 10:49:18.063 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-05 10:49:18.063 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-05 10:49:18.092 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-05 10:49:18.093 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-05 10:49:18.111 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-05 10:49:18.111 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-05 10:49:18.124 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-05 10:49:18.125 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-05 10:49:18.130 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-05 10:49:18.130 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-05 10:49:43.623 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=7,mid=1
+2019-03-05 10:49:43.686 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-06 13:54:57.556 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-06 13:54:57.556 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-06 13:54:57.594 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-06 13:54:57.594 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-06 13:54:57.643 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-06 13:54:57.643 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-06 13:54:57.687 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-06 13:54:57.687 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-06 13:54:57.694 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-06 13:54:57.694 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-06 13:55:35.443 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 13:55:38.825 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 13:55:45.889 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 13:55:46.280 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 13:55:46.457 [http-nio-8080-exec-2] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 13:56:35.845 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-06 13:56:35.845 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-06 13:56:35.886 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-06 13:56:35.886 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-06 13:56:35.900 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-06 13:56:35.900 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-06 13:56:35.917 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-06 13:56:35.917 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-06 13:56:35.926 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-06 13:56:35.927 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-06 13:56:56.486 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 13:58:25.878 [http-nio-8080-exec-4] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 13:58:37.495 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 13:59:24.744 [http-nio-8080-exec-10] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 14:00:50.294 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 14:06:23.942 [http-nio-8080-exec-6] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 14:06:52.813 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 14:08:54.214 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 14:11:23.796 [http-nio-8080-exec-3] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=begin 0, end -1, length 12
+2019-03-06 14:16:17.803 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=9,mid=1
+2019-03-06 14:16:17.836 [http-nio-8080-exec-2] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-06 14:17:29.790 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-06 14:17:29.790 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-06 14:17:29.793 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-06 14:17:29.793 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-06 14:17:29.798 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-06 14:17:29.798 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-06 14:17:29.805 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-06 14:17:29.805 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-06 14:17:29.810 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-06 14:17:29.810 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-06 14:22:29.893 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-06 14:22:29.893 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-06 14:22:29.900 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-06 14:22:29.900 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-06 14:22:29.905 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-06 14:22:29.905 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-06 14:22:29.911 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-06 14:22:29.911 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-06 14:22:29.914 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-06 14:22:29.914 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-06 14:25:20.337 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-03-06 14:25:20.417 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-03-06 14:44:53.886 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-06 14:44:53.886 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-06 14:44:53.897 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-06 14:44:53.897 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-06 14:44:53.903 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-06 14:44:53.903 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-06 14:44:53.921 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-06 14:44:53.922 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-06 14:44:53.927 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-06 14:44:53.928 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-06 15:15:58.915 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=10,mid=1
+2019-03-06 15:15:58.921 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-06 15:37:34.176 [http-nio-8080-exec-3] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-06 15:37:34.176 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-06 15:37:34.181 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-06 15:37:34.181 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-06 15:37:34.190 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-06 15:37:34.190 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-06 15:37:34.196 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-06 15:37:34.196 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-06 15:37:34.200 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-06 15:37:34.200 [http-nio-8080-exec-3] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-06 15:37:35.833 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-06 15:37:35.833 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-06 15:37:35.836 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-06 15:37:35.836 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-06 15:37:35.839 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-06 15:37:35.839 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-06 15:37:35.844 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-06 15:37:35.844 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-06 15:37:35.847 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-06 15:37:35.847 [http-nio-8080-exec-1] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-06 15:44:43.291 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=11,mid=1
+2019-03-06 15:44:43.293 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-06 16:05:03.428 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=12,mid=1
+2019-03-06 16:05:03.429 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-07 22:05:38.017 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-07 22:05:38.026 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-07 22:05:38.069 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-07 22:05:38.069 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-07 22:05:38.120 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-07 22:05:38.120 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-07 22:05:38.170 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-07 22:05:38.170 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-07 22:05:38.175 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-07 22:05:38.175 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-08 11:42:46.086 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-08 11:42:46.087 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-08 11:42:46.135 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-08 11:42:46.135 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-08 11:42:46.221 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-08 11:42:46.221 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-08 11:42:46.234 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-08 11:42:46.234 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-08 11:42:46.240 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-08 11:42:46.240 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-11 23:33:41.305 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-11 23:33:41.316 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-11 23:33:41.360 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-11 23:33:41.360 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-11 23:33:41.398 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-11 23:33:41.398 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-11 23:33:41.432 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-11 23:33:41.432 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-11 23:33:41.439 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-11 23:33:41.439 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-11 23:35:55.684 [http-nio-8080-exec-3] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-11 23:35:55.684 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-11 23:35:55.690 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-11 23:35:55.690 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-11 23:35:55.699 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-11 23:35:55.699 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-11 23:35:55.715 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-11 23:35:55.715 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-11 23:35:55.724 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-11 23:35:55.724 [http-nio-8080-exec-3] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-11 23:55:24.253 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-11 23:55:24.253 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-11 23:55:24.304 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-11 23:55:24.304 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-11 23:55:24.322 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-11 23:55:24.322 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-11 23:55:24.335 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-11 23:55:24.336 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-11 23:55:24.342 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-11 23:55:24.342 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 00:03:22.132 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 00:03:22.133 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 00:03:22.162 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 00:03:22.162 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 00:03:22.175 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 00:03:22.175 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 00:03:22.187 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 00:03:22.187 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 00:03:22.194 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 00:03:22.194 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 00:10:17.761 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 00:10:17.761 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 00:10:17.794 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 00:10:17.794 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 00:10:17.806 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 00:10:17.806 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 00:10:17.822 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 00:10:17.822 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 00:10:17.829 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 00:10:17.829 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 10:27:26.599 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 10:27:26.599 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 10:27:26.636 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 10:27:26.636 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 10:27:26.653 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 10:27:26.653 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 10:27:26.668 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 10:27:26.668 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 10:27:26.685 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 10:27:26.685 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 10:37:18.577 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=13,mid=1
+2019-03-12 10:37:18.586 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 10:56:11.519 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 10:56:11.519 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 10:56:11.525 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 10:56:11.525 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 10:56:11.537 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 10:56:11.537 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 10:56:11.557 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 10:56:11.557 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 10:56:11.565 [http-nio-8080-exec-9] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 10:56:11.565 [http-nio-8080-exec-9] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 10:56:32.660 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=14,mid=1
+2019-03-12 10:56:32.665 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 10:58:01.305 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 10:58:01.305 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 10:58:01.336 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 10:58:01.336 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 10:58:01.354 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 10:58:01.354 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 10:58:01.373 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 10:58:01.373 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 10:58:01.382 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 10:58:01.382 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 11:00:38.264 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=15,mid=1
+2019-03-12 11:00:38.351 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 11:18:01.589 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 11:18:01.589 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 11:18:01.649 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 11:18:01.649 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 11:18:01.672 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 11:18:01.672 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 11:18:01.688 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 11:18:01.688 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 11:18:01.693 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 11:18:01.693 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 11:19:08.191 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 11:19:08.191 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 11:19:08.221 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 11:19:08.222 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 11:19:08.236 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 11:19:08.236 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 11:19:08.254 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 11:19:08.254 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 11:19:08.260 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 11:19:08.260 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 12:20:54.226 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 12:20:54.226 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 12:20:54.264 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 12:20:54.264 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 12:20:54.281 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 12:20:54.281 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 12:20:54.295 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 12:20:54.295 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 12:20:54.302 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 12:20:54.302 [http-nio-8080-exec-6] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 12:25:23.610 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 12:25:23.610 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 12:25:23.642 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 12:25:23.642 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 12:25:23.658 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 12:25:23.658 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 12:25:23.683 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 12:25:23.683 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 12:25:23.693 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 12:25:23.693 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 12:25:42.561 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=16,mid=1
+2019-03-12 12:25:42.608 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2019-03-12 12:26:00.938 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=null
+2019-03-12 12:32:18.823 [http-nio-8080-exec-5] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=null
+2019-03-12 12:32:25.884 [http-nio-8080-exec-9] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=null
+2019-03-12 12:34:07.391 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 12:34:07.391 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 12:34:07.434 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 12:34:07.434 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 12:34:07.449 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 12:34:07.449 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 12:34:07.464 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 12:34:07.464 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 12:34:07.470 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 12:34:07.470 [http-nio-8080-exec-4] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-12 12:40:15.605 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=null
+2019-03-12 12:40:48.214 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-12 12:40:48.214 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-12 12:40:48.245 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-12 12:40:48.245 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-12 12:40:48.260 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-12 12:40:48.260 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-12 12:40:48.274 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-12 12:40:48.274 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-12 12:40:48.282 [http-nio-8080-exec-5] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-12 12:40:48.282 [http-nio-8080-exec-5] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-13 15:37:25.444 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-03-13 15:37:25.445 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-03-13 15:37:25.492 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-03-13 15:37:25.492 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-03-13 15:37:25.512 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-03-13 15:37:25.512 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-03-13 15:37:25.529 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-03-13 15:37:25.529 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-03-13 15:37:25.536 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-03-13 15:37:25.536 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-03-13 15:42:01.532 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-03-13 15:42:01.541 [http-nio-8080-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-04-03 10:41:10.596 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-04-03 10:41:10.596 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-04-03 10:41:10.640 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-04-03 10:41:10.640 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-04-03 10:41:10.696 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-04-03 10:41:10.696 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-04-03 10:41:10.752 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-04-03 10:41:10.756 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-04-03 10:41:10.773 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-04-03 10:41:10.773 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-04-03 10:41:20.632 [http-nio-8080-exec-3] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-04-03 10:41:20.632 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-04-03 10:41:20.636 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-04-03 10:41:20.636 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-04-03 10:41:20.648 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-04-03 10:41:20.648 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-04-03 10:41:20.656 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-04-03 10:41:20.656 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-04-03 10:41:20.664 [http-nio-8080-exec-3] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-04-03 10:41:20.664 [http-nio-8080-exec-3] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-04-03 11:25:37.822 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-04-03 11:25:37.838 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-04-03 11:40:59.330 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-04-03 11:40:59.330 [http-nio-8080-exec-4] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-04-03 11:41:30.734 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=Request method 'PUT' not supported
+2019-04-03 11:41:30.897 [http-nio-8080-exec-7] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=Request method 'PUT' not supported
+2019-04-03 11:41:30.977 [http-nio-8080-exec-8] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=Request method 'PUT' not supported
+2019-04-03 11:41:31.086 [http-nio-8080-exec-1] ERROR com.my.blog.website.controller.GlobalExceptionHandler - find exception:e=query content by id and return is not one
+2019-04-03 11:45:32.946 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-04-03 11:45:32.946 [http-nio-8080-exec-10] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-04-03 11:58:37.988 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2019-04-03 11:58:37.998 [http-nio-8080-exec-6] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
+2019-04-07 17:18:51.036 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-04-07 17:18:51.043 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-04-07 17:18:51.095 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-04-07 17:18:51.095 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-04-07 17:18:51.140 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-04-07 17:18:51.141 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-04-07 17:18:51.172 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-04-07 17:18:51.172 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-04-07 17:18:51.178 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-04-07 17:18:51.178 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-04-14 17:59:41.697 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-04-14 17:59:41.697 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-04-14 17:59:41.755 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-04-14 17:59:41.755 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-04-14 17:59:41.811 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-04-14 17:59:41.811 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-04-14 17:59:41.861 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-04-14 17:59:41.861 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-04-14 17:59:41.867 [http-nio-8080-exec-8] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-04-14 17:59:41.867 [http-nio-8080-exec-8] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
+2019-04-14 18:49:49.410 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Enter admin index method
+2019-04-14 18:49:49.410 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentComments method:limit=5
+2019-04-14 18:49:49.457 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentComments method
+2019-04-14 18:49:49.457 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter recentContents method
+2019-04-14 18:49:49.473 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit recentContents method
+2019-04-14 18:49:49.473 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Enter getStatistics method
+2019-04-14 18:49:49.495 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.SiteServiceImpl - Exit getStatistics method
+2019-04-14 18:49:49.495 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Enter getLogs method:page=1,linit=5
+2019-04-14 18:49:49.503 [http-nio-8080-exec-7] DEBUG com.my.blog.website.service.impl.LogServiceImpl - Exit getLogs method
+2019-04-14 18:49:49.503 [http-nio-8080-exec-7] INFO  com.my.blog.website.controller.admin.IndexController - Exit admin index method
