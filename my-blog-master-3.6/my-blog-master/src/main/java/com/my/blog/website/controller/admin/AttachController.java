@@ -22,6 +22,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -78,13 +79,14 @@ public class AttachController extends BaseController {
      * @param request
      * @return
      */
-    @PostMapping(value = "upload")
+    @PostMapping(value = "upload" )
     @ResponseBody
-    public RestResponseBo upload(HttpServletRequest request, @RequestParam("file") MultipartFile[] multipartFiles) throws IOException {
+    public String upload(HttpServletRequest request) throws IOException {
+        List<MultipartFile> multipartFiles = ((MultipartHttpServletRequest) request).getFiles("file");
         UserVo users = this.user(request);
         Integer uid = users.getUid();
         List<String> errorFiles = new ArrayList<>();
-        ContentVo[] contents = new ContentVo[multipartFiles.length+1];
+        ContentVo[] contents = new ContentVo[multipartFiles.size()+1];
         int k=0;
         try {
             for (MultipartFile multipartFile : multipartFiles) {
@@ -122,7 +124,8 @@ public class AttachController extends BaseController {
 
 
 
-                    content.setTitle(title + "_" + dateString );
+                    //content.setTitle(title + "_" + dateString );
+                    content.setTitle(title);
                     content.setType("post");
                     content.setStatus("publish");
                     content.setCategories("C++");
@@ -140,10 +143,13 @@ public class AttachController extends BaseController {
                     errorFiles.add(fname);
                 }
             }
+            contentService.upload(contents);
         } catch (Exception e) {
-            return RestResponseBo.fail();
+            //return RestResponseBo.fail();
+            return "失败";
         }
-        return RestResponseBo.ok(errorFiles);
+       // return RestResponseBo.ok(errorFiles);
+        return "上传成功";
     }
 
 

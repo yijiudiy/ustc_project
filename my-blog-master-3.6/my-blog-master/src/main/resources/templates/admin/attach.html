@@ -48,13 +48,17 @@
                         <div class="col-md-12 portlets">
                             <!-- Your awesome content goes here -->
                             <div class="m-b-30">
-                                <form action="#" class="dropzone" id="dropzone" enctype="multipart/form-data">
+<!--                                <form action="/admin/attach/upload" class="dropzone" id="dropzone" method="post" enctype="multipart/form-data" >
                                     <div class="fallback">
                                         <input name="file" type="file" multiple="multiple"/>
                                     </div>
                                     <div class="dz-message">
                                         将文件拖至此处或点击上传.
                                     </div>
+                                </form>-->
+                                <form action="/admin/attach/upload"  id="dropzone" method="post" enctype="multipart/form-data" >
+                                        <input name="file" type="file" multiple="multiple"/>
+                                    <input type="submit" value="上传"  onclick="javascript: window.location.href='/admin/article'"/>
                                 </form>
                             </div>
                         </div>
@@ -116,10 +120,10 @@
 <script type="text/javascript" th:inline="javascript">
     /*<![CDATA[*/
     var tale = new $.tale();
-    $("#dropzone").dropzone({
+  /*  $("#dropzone").dropzone({
         paramName: "file",
         url: "/admin/attach/upload",
-        maxFilesize: 1,
+        maxFilesize: 5,
         init: function () {
             this.on("success", function (file, msg) {
                 console.log(file);
@@ -131,7 +135,7 @@
                 }, 200);
             });
         }
-    });
+    });*/
     var clipboard = new Clipboard('button.copy', {
         text: function (trigger) {
             return $(trigger).attr('url');

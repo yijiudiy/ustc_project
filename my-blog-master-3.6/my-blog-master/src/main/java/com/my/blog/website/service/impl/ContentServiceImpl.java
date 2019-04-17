@@ -9,6 +9,7 @@ import com.my.blog.website.dto.Types;
 import com.my.blog.website.exception.TipException;
 import com.my.blog.website.model.Vo.ContentVo;
 import com.my.blog.website.model.Vo.ContentVoExample;
+import com.my.blog.website.model.Vo.UserVo;
 import com.my.blog.website.service.IContentService;
 import com.my.blog.website.service.IMetaService;
 import com.my.blog.website.service.IRelationshipService;
@@ -24,6 +25,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -94,9 +98,12 @@ public class ContentServiceImpl implements IContentService {
 //***********************************************************************
         //下面的代码调用了代码度量部分的代码，实现了统计属性值的需求
         String code = contents.getContent();
+        String[] templist= new String[1];
+        String[] reslist = new String[2];
+        templist[0] = code;
         CodeMeasure c = new CodeMeasure();
-        code = c.lsmea(code);
-        contents.setMeasure(code);
+        reslist = c.lsmea(templist);
+        contents.setMeasure(reslist[0]);
 //***********************************************************************
         contentDao.insert(contents);
         Integer cid = contents.getCid();
@@ -107,25 +114,40 @@ public class ContentServiceImpl implements IContentService {
     @Override
     @Transactional
     public String upload(ContentVo[] c) {
-        c[c.length-1] = c[c.length-2];
+        ContentVo content = new ContentVo();
+        long mytime = DateKit.getCurrentUnixTime();
+        int time = (int) mytime;
+        //int time = DateKit.getCurrentUnixTime();
+        String dateString = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new java.util.Date(mytime * 1000));
+        content.setTitle(dateString+"工程文件统计汇总结果");
+        content.setType("post");
+        content.setStatus("publish");
+        content.setCategories("C++");
+        content.setAllowFeed(true);
+        content.setAllowComment(true);
+        content.setAllowPing(true);
+        content.setTags("");
+        content.setAuthorId(c[0].getAuthorId());
+        c[c.length-1] = content;
         String str = " ";
-        String[] codes = new String[c.length-1];
-        String[] result = new String[c.length];
+        String[] codes = new String[c.length];
+        String[] result = new String[c.length+1];
         for(int i=0;i<c.length-1;i++)
         {
             codes[i] = c[i].getContent();
             str += codes[i];
+            if(i!=c.length-2)
             str += "\n";
         }
         c[c.length-1].setContent(str);
-        c[c.length-1].setTitle("统计结果");
+        codes[c.length-1] = str;
         CodeMeasure codeprocess = new CodeMeasure();
-       // result = codeprocess.lsmea(codes);
+        result = codeprocess.lsmea(codes);
         for(int i=0;i<c.length;i++)
         {
             c[i].setMeasure(result[i]);
         }
-        for(int i=0;i<c.length-1;i++) {
+        for(int i=0;i<c.length;i++) {
             ContentVo contents = c[i];
             if (null == contents) {
                 return "文章对象为空";
@@ -162,12 +184,10 @@ public class ContentServiceImpl implements IContentService {
 
             contents.setContent(EmojiParser.parseToAliases(contents.getContent()));
 
-            int time = DateKit.getCurrentUnixTime();
             contents.setCreated(time);
             contents.setModified(time);
             contents.setHits(0);
             contents.setCommentsNum(0);
-
             String tags = contents.getTags();
             String categories = contents.getCategories();
 //***********************************************************************

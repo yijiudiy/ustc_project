@@ -2,11 +2,11 @@ package com.my.blog.website.utils.liusongcode;
 
 import java.text.NumberFormat;
 import java.util.*;
-import java.io.*;
-public class FunctionNumber {
+import java.io.*;public class FunctionNumber {
 	static File file_path;
-	int functionResult=0,classNum=0;
-
+	int functionResult=0;
+	static Map<String,Integer> cla = new LinkedHashMap<String,Integer>();
+	static int classNum=0;
 	public  StringBuffer res=new StringBuffer();
 	FunctionNumber(File s)
 	{
@@ -23,7 +23,6 @@ public class FunctionNumber {
 	}
 
 	public  StringBuffer showResult(){
-		Map<String,Integer> cla = new LinkedHashMap<String,Integer>();
 		int left=0,functionFlag=0,classLeft=0,functionLineNum=0,maxDepth=0,numDepth=0,
 				functionStateNum=0,functionComplexSum=0,maxFunComplex=0;
 		boolean commentFlag = false,singleLine=false;
@@ -156,11 +155,11 @@ public class FunctionNumber {
 					//先把找到的类存到map中
 					int a=lowLine.indexOf("class")+6;
 					int endIndex=0;
-					if(lowLine.indexOf('{')>0)
+					if(lowLine.indexOf('{')>0 && lowLine.indexOf(':')<0)
 						endIndex=lowLine.indexOf('{');
 					else if(lowLine.indexOf(':')>0)
 						endIndex=lowLine.indexOf(':');
-					else endIndex=lowLine.length()-1;
+					else endIndex=lowLine.length();
 
 					String str = lowLine.substring(a,endIndex);
 					System.out.println("lei   "+str);
@@ -172,10 +171,13 @@ public class FunctionNumber {
 					{
 						//出现继承
 						int startIndex=lowLine.lastIndexOf(' ');
-//						System.out.println(lowLine);
-//						System.out.println(lowLine.substring(0,lowLine.length()));
-						String s=lowLine.substring(startIndex+1,lowLine.length());
-//						System.out.println("jicheng**"+s+"**");
+						System.out.println(lowLine);
+						//防止public class xyz:public h{
+						int end2Index=lowLine.length();
+						if(lowLine.indexOf('{')>0)
+							end2Index=lowLine.indexOf('{');
+						String s=lowLine.substring(startIndex+1,end2Index);
+						System.out.println("jicheng**"+s+"**");
 						Integer times = cla.get(s)+1;
 						cla.put(str,times);
 					}
@@ -218,14 +220,7 @@ public class FunctionNumber {
 				}
 			}
 		}
-		res.append("类和结构体个数："+classNum+"\r\n"+"\r\n");
-		for(String s:cla.keySet())
-		{
-			res.append("类名："+s+"     最大继承深度："+cla.get(s)+"\r\n");
-		}
-		res.append("\r\n"+"函数个数："+functionResult+"\r\n");
-//	        System.out.println("类和结构体个数："+classNum);
-//	        System.out.println("函数个数："+functionResult);
+
 
 		if(functionResult!=0)
 		{
@@ -292,8 +287,20 @@ public class FunctionNumber {
 			res.append("函数平均语句数："+functionStateNum/functionResult+"\r\n"+"\r\n");
 			//System.out.println("函数平均语句数："+functionStateNum/functionResult);
 		}
-		System.out.println(cla.toString());
+		//System.out.println(cla.toString());
+		res.append("\r\n"+"函数个数："+functionResult+"\r\n");
 		return res;
 	}//showresult
+
+	public String lei(){
+		StringBuilder res = new StringBuilder();
+		res.append("类的个数："+classNum+"\r\n");
+		for(String s:cla.keySet())
+		{
+			res.append("类名："+s+"     最大继承深度："+cla.get(s)+"\r\n");
+		}
+
+		return res.toString();
+	}
 }
 
