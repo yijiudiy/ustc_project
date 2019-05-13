@@ -6,7 +6,7 @@ import java.text.NumberFormat;
 import java.util.*;
 import java.io.*;
 public class CodeMeasure {
-	public  StringBuffer res=new StringBuffer();
+	public  StringBuffer res = new StringBuffer();
 	//字符串读取
 	public  String[] lsmea(String str[]) {
 		//ArrayList<String> result = new ArrayList<String>();
@@ -14,7 +14,7 @@ public class CodeMeasure {
 		int i=0;
 
 		for (String s : str) {
-//            Map<String,Integer> cla = new LinkedHashMap<String,Integer>();
+//           Map<String,Integer> cla = new LinkedHashMap<String,Integer>();
 			//for (String s : str) {
 			//res.delete(0,res.length());
 			res.delete(0,res.length());//res一定要在循环开始时每次清空  不然会每次累加上次测试的结果

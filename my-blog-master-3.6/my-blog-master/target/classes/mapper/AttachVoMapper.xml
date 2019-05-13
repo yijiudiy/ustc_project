@@ -94,7 +94,7 @@
   </select>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
-    <include refid="Base_Column_List" />
+    <include refid = "Base_Column_List" />
     from t_attach
     where id = #{id,jdbcType=INTEGER}
   </select>

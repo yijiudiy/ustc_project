@@ -121,11 +121,10 @@ public class ArticleController extends BaseController {
 
     //分析结果下载
     //edited by ：钟顺超 time :2019.2.23 7:27PM
-
     @GetMapping("/download/{cid}") //id为时间戳@RequestParam
     @ResponseBody
     public void download(@PathVariable String cid ,HttpServletRequest request, HttpServletResponse response) {
-        ContentVo contents = contentsService.getContents(cid);//获取文章内容
+        ContentVo contents = contentsService.getContents(cid);  //获取文章内容
         String title = contents.getTitle();//获取文章标题
         try (
                 //jdk7新特性，可以直接写到try()括号里面，java会自动关闭
@@ -138,7 +137,6 @@ public class ArticleController extends BaseController {
             //String fileName = "test.txt";
             response.addHeader("Content-Disposition", "attachment;fileName=" + title + ".txt");   // 设置文件名
 
-
             //把输入流copy到输出流
             IOUtils.copy(inputStream, outputStream);
 
@@ -149,23 +147,21 @@ public class ArticleController extends BaseController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
 
     //下载上传的文件
     //edited by ：钟顺超 time :2019.2.23 7:27PM
-
     @GetMapping("/downloadUnloadedFile/{cid}") //id为时间戳@RequestParam
     @ResponseBody
     public void download(@PathVariable Integer cid ,HttpServletRequest request, HttpServletResponse response) {
         //ContentVo contents = contentsService.getContents(cid);
-        AttachVo attachVo =attachDao.selectByPrimaryKey(cid);
+        AttachVo attachVo = attachDao.selectByPrimaryKey(cid);
         String fileKey = attachVo.getFkey();
         String fileName = attachVo.getFname();
 
         File file = new File(CLASSPATH, fileKey);
-        System.out.print(CLASSPATH+fileKey);
+        System.out.print(CLASSPATH + fileKey);
         // 如果文件名存在，则进行下载
         if (file.exists()) {
             try (
@@ -195,8 +191,6 @@ public class ArticleController extends BaseController {
         }
 
         }
-
-
 
     }
 

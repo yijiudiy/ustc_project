@@ -20,13 +20,13 @@ public class StatementsNumber {
 	        try 
 	        {  
 	            br = new BufferedReader(new FileReader(file_path));
-	            String line = "";  
+	            String line = "";
 	            while ((line = br.readLine()) != null) {
-	            	line = line.trim(); 
+	            	line = line.trim();
 	            	String lowLine=line.toLowerCase();
 	            	
 	            	if (line.startsWith("//") || line.startsWith("/*") || commentFlag==true) 
-		            {    
+		            {
 	            	 	if(line.startsWith("/*"))commentFlag = true;   //标注是否在注释块中 
 	            	 	if(line.indexOf("*/")>=0)commentFlag=false;
 		            }

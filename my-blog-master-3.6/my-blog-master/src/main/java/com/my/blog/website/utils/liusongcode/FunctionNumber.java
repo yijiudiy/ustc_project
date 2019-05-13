@@ -2,7 +2,8 @@ package com.my.blog.website.utils.liusongcode;
 
 import java.text.NumberFormat;
 import java.util.*;
-import java.io.*;public class FunctionNumber {
+import java.io.*;
+public class FunctionNumber {
 	static File file_path;
 	int functionResult=0;
 	static Map<String,Integer> cla = new LinkedHashMap<String,Integer>();

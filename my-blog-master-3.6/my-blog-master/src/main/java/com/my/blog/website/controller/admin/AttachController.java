@@ -106,24 +106,20 @@ public class AttachController extends BaseController {
                     StringBuilder sb = new StringBuilder();//定义一个字符串缓存，将字符串存放缓存中
                     String s = "";
                     while ((s =bReader.readLine()) != null) {//逐行读取文件内容，不读取换行符和末尾的空格
-                        sb.append(s + "\n");//将读取的字符串添加换行符后累加存放在缓存中
+                        sb.append(s + "\n");                 //将读取的字符串添加换行符后累加存放在缓存中
                         System.out.println(s);
                     }
                     bReader.close();
                     String str = sb.toString();
                     ContentVo content = new ContentVo();
 //                    String title =fname.substring(fname.indexOf(".")+1, fname.length());
-                    String title =fname.substring(0, fname.indexOf("."));
+                    String title = fname.substring(0, fname.indexOf("."));
                     Date date = new Date();
                     DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                     String dateString = format.format(date);
 
-
 //                    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 //                    Date date = sdf.parse(time);
-
-
-
                     //content.setTitle(title + "_" + dateString );
                     content.setTitle(title);
                     content.setType("post");
@@ -137,7 +133,7 @@ public class AttachController extends BaseController {
                     content.setAuthorId(users.getUid());
                     contents[k++] = content;
                    // contentService.publish(content);
-                    //
+                   //
                     attachService.save(fname, fkey, ftype, uid);//保存上传的文件的基本信息，和路径信息,其中fkey包含了路径信息
                 } else {
                     errorFiles.add(fname);
@@ -151,13 +147,6 @@ public class AttachController extends BaseController {
        // return RestResponseBo.ok(errorFiles);
         return "上传成功";
     }
-
-
-
-
-
-
-
 
     @RequestMapping(value = "delete")
     @ResponseBody
@@ -177,5 +166,4 @@ public class AttachController extends BaseController {
         }
         return RestResponseBo.ok();
     }
-
 }
